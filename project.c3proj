@@ -5,11 +5,43 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
 	"uniqueId": "jmysfichaj7",
 	"objectTypes": {
-		"items": [],
-		"subfolders": []
+		"items": [
+			"Player"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Keyboard"
+				],
+				"subfolders": [],
+				"name": "Plugins"
+			}
+		]
 	},
 	"autosaveData": null,
 	"containers": [],
@@ -19,13 +51,13 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Main Game Test"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Main Script"
 		],
 		"subfolders": []
 	},
@@ -144,7 +176,7 @@
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",
-		"viewportFit": "auto",
+		"viewportFit": "cover",
 		"backgroundColor": [
 			0,
 			0,
@@ -168,14 +200,14 @@
 		"webgpu": "auto",
 		"gpuPreference": "high-performance",
 		"scriptsType": "module",
-		"framerateMode": "vsync",
+		"framerateMode": "unlimited-frame",
 		"sampling": "trilinear",
-		"downscaling": "medium",
-		"renderingMode": "auto",
-		"anisotropicFiltering": "auto",
+		"downscaling": "high",
+		"renderingMode": "2d",
+		"anisotropicFiltering": "16x",
 		"zNear": 1,
 		"zFar": 10000,
-		"maxSpriteSheetSize": 2048,
+		"maxSpriteSheetSize": 4096,
 		"loaderStyle": "splash",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
