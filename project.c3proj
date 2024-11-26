@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 40702,
+	"savedWithRelease": 41600,
 	"name": "cdnWailers",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -26,12 +26,22 @@
 			"name": "8 Direction",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "jmysfichaj7",
 	"objectTypes": {
 		"items": [
-			"Player"
+			"Player",
+			"Lightsource",
+			"Lamp",
+			"NightShader"
 		],
 		"subfolders": [
 			{
@@ -212,7 +222,6 @@
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",
-		"autoReloadScriptsOnPreview": false,
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},

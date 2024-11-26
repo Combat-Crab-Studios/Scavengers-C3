@@ -1,37 +1,31 @@
 {
-	"name": "Player",
+	"name": "NightShader",
 	"plugin-id": "Sprite",
-	"sid": 229561918852754,
+	"sid": 284654483597032,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 685574753750459
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 23,
-						"height": 21,
-						"originX": 0.5217391304347826,
-						"originY": 0.5238095238095238,
+						"width": 210,
+						"height": 212,
+						"originX": 0.49523809523809526,
+						"originY": 0.4669811320754717,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 5023461,
+						"imageSpriteId": 3669961,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 832459396703646,
+				"sid": 757256778684024,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

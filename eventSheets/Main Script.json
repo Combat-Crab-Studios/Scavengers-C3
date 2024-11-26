@@ -100,6 +100,73 @@
 				}
 			],
 			"sid": 650791196624247
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 866532929375086,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Lightsource",
+					"sid": 437726707845723,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				}
+			],
+			"sid": 343591584786504
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 538586424099371
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Lamp",
+					"sid": 104504267592572,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Lightsource",
+					"sid": 336605603869297,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Lamp",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 638690271964912
 		}
 	],
 	"sid": 557711404609738

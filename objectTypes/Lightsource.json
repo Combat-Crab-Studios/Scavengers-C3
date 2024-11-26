@@ -1,14 +1,14 @@
 {
-	"name": "Player",
+	"name": "Lightsource",
 	"plugin-id": "Sprite",
-	"sid": 229561918852754,
+	"sid": 836175846902306,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 685574753750459
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 656631120462723
 		}
 	],
 	"effectTypes": [],
@@ -17,22 +17,22 @@
 			{
 				"frames": [
 					{
-						"width": 23,
-						"height": 21,
-						"originX": 0.5217391304347826,
-						"originY": 0.5238095238095238,
+						"width": 315,
+						"height": 318,
+						"originX": 0.49523809523809526,
+						"originY": 0.4669811320754717,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 5023461,
+						"imageSpriteId": 337255,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 832459396703646,
-				"name": "Animation 1",
+				"sid": 333761824344750,
+				"name": "Lamp",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
